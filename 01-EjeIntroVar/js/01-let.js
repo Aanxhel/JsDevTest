@@ -3,8 +3,8 @@ cracion de comando let
 let: nos permite cambiar los valores relacionados con ellos
 */
 
-let peso ;
-let masa ;
+let edad =12;
+let peso  = 70;
 
+console.log(edad);
 console.log(peso);
-console.log(masa);

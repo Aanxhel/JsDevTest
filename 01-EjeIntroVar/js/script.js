@@ -1,12 +1,14 @@
-function evalua(numeroInicial, numeroFinal) {
-    let demo1 = 11;
-    let demo2 = "saludo";
+/*
+Ahora te pedimos que declares una función llamada  tripleDeLaSuma() que reciba dos parámetros. Luego tiene que sumar ambos y devolvernos el triple del valor del resultado de sumar ambos parámetros . Para ello ya contás (aunque no la veas declarada) con la función triple, que recibe un parámetro y retorna el valor del mismo multiplicado por tres.
+*/
 
-    if (numeroInicial < demo1) {
-        return ('el numero es menor')
-    } else {
-        return (demo2 + ' el numero es mayor' + numeroFinal)
-    }
+function sumar(numero1, numero2) {
+    return numero1 + numero2;
 }
 
-console.log(evalua(12, "mensaje de salida"))
+function tripleDeLaSuma(numero3, numero4) {
+    let resultadoDeSuma = sumar(numero3, numero4);
+    return resultadoDeSuma * 3;
+}
+
+console.log(tripleDeLaSuma(2,2))
